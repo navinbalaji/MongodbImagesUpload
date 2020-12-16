@@ -1,0 +1,11 @@
+PUT http://localhost:3000/update/5fccdaea16b7fb1218538db6
+Content-Type: application/json
+
+{
+    "username":"navin",
+    "password":"navin",
+    "email":"navin@gmail.com",
+}
+
+###
+GET http://localhost:3000/photo/1607953656334biography.png HTTP/1.1
